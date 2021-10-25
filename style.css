@@ -1,0 +1,114 @@
+/* Top Menu */
+#topMenu {
+    position:absolute;
+    top: 50px;
+    left: 520px;
+}
+#topMenu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+}
+
+#topMenu li {
+    float: left;
+    background-color: #573e1a;
+    padding: 5px;
+    width: 125px;
+    text-align: center;
+    border: 2px solid white;
+    list-style-type: none;
+    text-align: center;
+}
+
+body{
+    margin: auto;
+    text-align: center;
+    font-family: serif;
+}
+
+/* Body */
+#homeBody{
+    background-image: url(images/coffee1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#homeMenu{
+    background-image: url(images/coffee2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#homeContact{
+    background-image: url(images/coffee3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* h1 */
+h1{
+    background-color: #573e1a;
+    color: white;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    width: 500px;
+}
+
+/* Home Page*/
+#welcomeMessage{
+    position: relative;
+    top: 250px;
+    width: 500px;
+    margin: auto;
+    background-color: #4B371C;
+    color: bisque;
+    font-size: 30px;
+}
+
+/* Table */
+table{
+    margin: auto;
+    margin-top: 100px;
+    background-color: #4B371C;
+    color: bisque; 
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 3px solid #E5D3B3;
+    padding: 2px;
+}
+
+/* Menu */
+img{
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+}
+
+#MenuTable{
+    float: left;
+    font-size: 20px;
+    width: 800px;
+    margin-left: 60px;
+}
+
+#PriceTable{
+    font-size: 30px;
+    margin-top: 170px;
+    width: 375px;
+}
+
+/* Contact */
+#ContactTable{
+    font-size: 20px;
+    margin-top: 225px;
+    width: 375px;
+}
+
+.ContactT{
+    padding: 10px;
+}
